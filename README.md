@@ -2,7 +2,7 @@
 
 This is a derivative and the iOS version of the game 2048. In the very unlikely case that you don't know what it is, you can check it out [here](https://github.com/gabrielecirulli/2048).
 
-Made just for fun! You can find it on the [App Store](https://itunes.apple.com/us/app/2048-and-more!/id848859070?ls=1&mt=8).
+Made just for fun!
 
 <p align="center">
   <img src="http://a4.mzstatic.com/us/r30/Purple4/v4/a4/f8/af/a4f8af1d-3878-0817-859d-de76bae169c7/screen568x568.jpeg" alt="Screenshot"/>
@@ -22,9 +22,9 @@ Ideally, the AI should search from 0 depth to infinity and have a time out, it r
 
 ## The Game
 
-Since it is a *derivative* of the original 2048, it is not the *same*. More explicitly, it has the following additions:
+Since it is a *derivative* of the original 2048, it is not the *same*. Specifically, it has the following additions:
 
-* **Three board sizes**: 3x3, 4x4 and 5x5. The smaller the board is, the fewer cells you have, and the harder the game is.* 
+* **Three board sizes**: 3x3, 4x4 and 5x5. The smaller the board is, the fewer cells you have, and the harder the game is. 
 * **Three game modes**: The original Power of 2, i.e. combining two tiles of the same value to produce their sum. The Power of 3, i.e. combining *three* consecutive tiles of the same value to produce their sum. Not surprisingly, this is pretty hard with the 3x3 board, although I found it pretty easy to get 81. 243 is a different story... And the Fibonacci sequence, i.e. combining two adjacent numbers in the sequence 2, 3, 5, 8, 13... (I omitted the two 1's in the beginning) to produce the one next to the larger value. This is pretty tricky. Try it out and you will know what I mean.
 * **Three themes**: I made a bright theme and a 'joyful' theme in addition to the original one. In case you wonder how to do themes in iOS. (There may be a better way, but themes are verbose in nature, because you *have to* specify all the colors, fonts, etc.)
 
@@ -53,9 +53,7 @@ The code started to resemble the structure of the original 2048. So for example,
 
 ### Contributing
 
-If you'd like to contribute, great! That's more than welcome. If you do make improvements to it, remember to put yourself in the "About 2048" page to get yourself credit.
-
-If you'd like to fork and make your own version, that's also great! Feel free to tinker with it however you'd like. It may not be a terribly good idea to change the font, add some ads, and submit to Apple, though.
+Any contributions are more than welcome! If you do make improvements to it, remember to put yourself in the "About 2048" page to get yourself credit.
 
 #### Contributors
 
@@ -64,10 +62,6 @@ If you'd like to fork and make your own version, that's also great! Feel free to
 * [Sihao Lu](https://github.com/DJBen)
 
 
-## Licence and Other
+## Licence
 
-2048 for iOS is licenced under the MIT license.
-
-If you find the source code somewhat useful, all I ask is to download it from the [App Store](https://itunes.apple.com/us/app/2048-and-more!/id848859070?ls=1&mt=8), so I know that *someone* has seen it. Relax: It is free; it does not have any ads or weird stuff; it does not send you push notifications to ask you to go back and play it.
-
-You may also consider to [donate](https://github.com/gabrielecirulli/2048) to the maker of the original 2048 if you'd like, of course. (:
+MIT.
